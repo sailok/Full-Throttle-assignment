@@ -16,6 +16,6 @@ Models:
 
 User has a many-to-many relationship with ActivityPeriod.
 
-Rest Api is implemented using djangorestframwork. Made serializer.py file which has classes related to these files and converts fetched data to OrderedDict with each activityperiod to its corresponding member. 
+Rest Api is implemented using djangorestframwork. Made serializer.py file which has classes related to these Models and converts fetched data to OrderedDict with each activityperiod put against to its corresponding member. 
 
 Dummy data is populated in database by making a custom command. Made method which will randomly generate ActivityPeriod objects and associate them to User objects.  
