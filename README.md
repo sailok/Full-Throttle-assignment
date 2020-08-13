@@ -11,3 +11,4 @@ Tech Stack:
 1. Django framework
 2. SQLite
 
+Dummy data is populated in database by making a custom command. 
