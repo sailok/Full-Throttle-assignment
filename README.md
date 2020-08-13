@@ -8,6 +8,7 @@ Live demo:
 Tech Stack:
 1. Django framework
 2. SQLite
+3. djangorestframwork 
 
 Models:
 1. User
@@ -15,5 +16,6 @@ Models:
 
 User has a many-to-many relationship with ActivityPeriod.
 
+Rest Api is implemented using djangorestframwork. Made serializer.py file which has classes related to these files and converts fetched data to OrderedDict with each activityperiod to its corresponding member. 
 
-Dummy data is populated in database by making a custom command. Can be accessed from Full-Throttle-assignment/FullThrottle_app/backend_test/management/commands/create_data.py
+Dummy data is populated in database by making a custom command. Made method which will randomly generate ActivityPeriod objects and associate them to User objects.  
